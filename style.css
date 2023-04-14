@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100pv;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d9f3dd;
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 25px;
+    background: #cae9d6;
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 20px;
+}
+.signup .form-group{ 
+    margin-batton: 25px;
+}
+.choice.form-group{ 
+    margin:baton 25px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
